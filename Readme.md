@@ -5,9 +5,9 @@ ChatBotIASushi es un proyecto diseñado para proporcionar una experiencia intera
 
 ---
 
-### **Cómo utilizar el proyecto**
+## **Utilización del proyecto**
 
-## **Requisitos previos**
+### **Requisitos previos**
 - Node.js v16+ instalado
 - MongoDB configurado para el backend
 - Clave API de Cohere.ai
@@ -37,11 +37,11 @@ Backend:
   ```bash
   npm start
 
-# Limitaciones
+## Limitaciones
 Cohere.ai Free Plan: Este proyecto utiliza el plan gratuito de Cohere.ai, lo que puede limitar la cantidad de solicitudes y las capacidades del modelo de lenguaje.
 Base de datos local: El proyecto no está optimizado para entornos de producción; actualmente utiliza una base de datos local.
 
-# Cosas a mejorar:
+## Cosas a mejorar:
 - Optimización para entornos de producción.
 - Integración con servicios de pago y notificaciones automáticas.
 - Mejora en el manejo de solicitudes concurrentes para el chatbot.
@@ -53,5 +53,5 @@ Base de datos local: El proyecto no está optimizado para entornos de producció
 - Mejorar el manejo de errores y agregar testing.
 - Ordenar el código del frontend.
 
-# Contacto
+## Contacto
 Cualquier duda, consulta o sugerencia de mejora contactarme en nachociccone@gmail.com
