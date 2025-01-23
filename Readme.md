@@ -1,26 +1,57 @@
-# pasos siguientes:
-- Conexión a la base de datos :check:
-- Lógica para guardar los datos de dirección y orden (productos cantidad y precio final) en la db :check:
-- Crear componentes de React :check:
-- Ida y vuelta con el frontend :check:
-- Acomodar el frontend para que cumpla con lo pedido :check:
+# Chat Bot Sushi IA 🍣
 
-- llevar los productos a la db
+### **Descripción**
+ChatBotIASushi es un proyecto diseñado para proporcionar una experiencia interactiva de chatbot a una empresa de sushi. Este chatbot utiliza inteligencia artificial para responder consultas de clientes, como recomendaciones de menú, horarios de atención, y recibir pedidos.
 
-- Revisar los detalles
-- Crear el repositorio, subir los archivos, crear el Readme con la info y los pasos.
+---
 
-Trial Key Limitations
+### **Cómo utilizar el proyecto**
 
-Trial keys are rate-limited depending on the endpoint you want to use. For example, the Embed endpoint is limited to 5 calls per minute, while the Chat endpoint is limited to 20 calls per minute. All other endpoints on trail keys are 1,000 calls per month. If you want to use Cohere endpoints in a production application or require higher throughput, you can upgrade to a production key.
+## **Requisitos previos**
+- Node.js v16+ instalado
+- MongoDB configurado para el backend
+- Clave API de Cohere.ai
+
+#### **Instalación**
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/Nachit0C/ChatBotIASushi.git
+2. Instala todas las dependencias:
+     ```bash
+    cd ChatBotIASushi
+    npm run install:all
+3.Configuración
+- Crea un archivo .env en las carpetas frontend y backend con las siguientes variables:
+Frontend:
+- env
+  ```bash
+    VITE_API_URL=<URL-del-servidor-Backend>
+Backend:
+- env
+  ```bash
+  COHERE_API_KEY=<Tu-clave-de-cohere.ai>
+  MONGO_URI=<Tu-URI-de-MongoDB>
+
+4.Ejecución
+- Inicia el proyecto completo:
+  ```bash
+  npm start
+
+# Limitaciones
+Cohere.ai Free Plan: Este proyecto utiliza el plan gratuito de Cohere.ai, lo que puede limitar la cantidad de solicitudes y las capacidades del modelo de lenguaje.
+Base de datos local: El proyecto no está optimizado para entornos de producción; actualmente utiliza una base de datos local.
 
 # Cosas a mejorar:
-- Interacciones con el bot, hacer muchas pruebas y acomodar los resultados.
+- Optimización para entornos de producción.
+- Integración con servicios de pago y notificaciones automáticas.
+- Mejora en el manejo de solicitudes concurrentes para el chatbot.
+- Ampliar el soporte de idiomas.
+- UI más atractiva y adaptativa para dispositivos móviles y en general.
 - Mejorar el menu, armar alguna especie de PDF para enviar cuando el cliente pida verlo.
 - Armar una lista de productos en la base de datos para ir manejando el stock.
 - Agregar una columna de estado a los pedidos para saber si están en proceso, confrimados, cancelados, enviados, etc.
-- Conseguir una mejor IA (paga).
 - Mejorar el manejo de errores y agregar testing.
-- Podría realizarse una interface aparte para el dueño de la tienda, para revisar los pedidos, y realizar consultas de los mismos.(Le agregaría el horario del pedido a cada uno para consultas mas específicas).
-- Mejorar el diseño del frontend.
 - Ordenar el código del frontend.
+
+# Contacto
+Cualquier duda, consulta o sugerencia de mejora contactarme en nachociccone@gmail.com
