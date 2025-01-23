@@ -1,0 +1,16 @@
+# Ignorar node_modules de cualquier carpeta
+node_modules/
+
+# Ignorar archivos .env de cualquier carpeta
+.env
+
+# Ignorar archivos de construcción en frontend (opcional)
+frontend/dist/
+
+# Ignorar archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar logs y reportes
+*.log
+logs/
