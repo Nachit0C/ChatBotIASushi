@@ -8,5 +8,5 @@ export const messageToAPI = async (message) => {
     });
     const data = await response.json();
     console.log('Data from API:', data);
-    return data;
+    return data.response;
 }

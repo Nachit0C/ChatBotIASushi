@@ -2,7 +2,7 @@ import { CohereClientV2 } from 'cohere-ai';
 import { menuString, menuSinSeparacionString } from '../menu.js';
 
 const cohere = new CohereClientV2({
-  token: process.env.COHERE_TOKEN,
+  token: '9DArUgDFp9cOJQPaSol4rPwGCFuw26rAJC1wQmdZ',
 });
 
 export async function chatbotBienvenida ({request}){
